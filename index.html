@@ -1,275 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="description" content="Portfolio of Rapolu Sai Bhargavi - Computer Science undergraduate focused on AI, Data Analytics and Software Development.">
   <title>Rapolu Sai Bhargavi | Portfolio</title>
 
-  <!-- CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
 </head>
 
-<body>
+<body class="dark">
 
-  <!-- HEADER -->
+<header class="hero" id="home">
 
-  <header>
+  <nav class="navbar">
+    <a class="brand" href="#home">
+      Rapolu Sai Bhargavi<span>.</span>
+    </a>
 
-    <!-- DARK MODE BUTTON -->
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-    <button class="dark-btn" onclick="toggleDarkMode()">
-      <i class="fa-solid fa-moon"></i>
-    </button>
+    <button class="theme-btn" id="themeBtn">☾</button>
+  </nav>
 
-    <div class="hero-content">
 
-      <h1>Rapolu Sai Bhargavi</h1>
+  <div class="hero-inner">
 
-      <p>
-  Computer Science Undergraduate | Data Analytics & Machine Learning Enthusiast
-</p>
+    <div class="hero-text">
 
-      <div class="hero-buttons">
+      <p class="eyebrow">COMPUTER SCIENCE UNDERGRADUATE</p>
 
-        <a
-          href="RapoluSaiBhargavi_Resume.pdf"
-          target="_blank"
-          class="primary-btn"
-        >
+      <h1>
+        Hi, I'm
+        <span>Rapolu Sai Bhargavi</span>
+      </h1>
+
+      <h2>
+        AI • Data Analytics • Software Development
+      </h2>
+
+      <p class="hero-summary">
+        Computer Science undergraduate with hands-on experience in AI,
+        Data Analytics, Machine Learning and Software Development.
+        I enjoy turning data and AI concepts into practical,
+        user-focused solutions.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary"
+           href="RapoluSaiBhargavi.pdf"
+           target="_blank">
           View Resume
         </a>
 
-        <a
-          href="#contact"
-          class="secondary-btn"
-        >
-          Contact
+        <a class="btn secondary" href="#projects">
+          Explore Projects
+        </a>
+      </div>
+
+      <div class="quick-links">
+        <a href="https://github.com/saibhargavi-rapolu"
+           target="_blank">
+          GitHub ↗
         </a>
 
+        <a href="https://www.linkedin.com/in/sai-bhargavi-rapolu-40aa9832a/"
+           target="_blank">
+          LinkedIn ↗
+        </a>
+
+        <a href="mailto:saibhargavi.rapolu05@gmail.com">
+          Email ↗
+        </a>
       </div>
 
     </div>
 
-    <!-- NAVIGATION -->
 
-    <nav>
+    <div class="hero-card">
 
-      <a href="#about">About</a>
+      <div class="score">9.20</div>
+      <p>CGPA</p>
 
-      <a href="#experience">Experience</a>
+      <div class="stat-line"></div>
 
-      <a href="#skills">Skills</a>
+      <div class="mini-stat">
+        <strong>Top 6%</strong>
+        <span>Naukri Campus Young Turks 2025</span>
+      </div>
 
-      <a href="#projects">Projects</a>
+      <div class="mini-stat">
+        <strong>AI + Cloud</strong>
+        <span>IBM SkillsBuild Internship</span>
+      </div>
 
-      <a href="#certifications">Certifications</a>
-
-      <a href="#contact">Contact</a>
-
-    </nav>
-
-  </header>
-
-  <!-- ABOUT -->
-
-<section id="about">
-
-  <div class="box">
-
-    <h2>About</h2>
-
-    <p>
-      Computer Science undergraduate with strong foundations in
-      software development, data analytics, and machine learning.
-      Skilled in developing data-driven solutions, predictive models,
-      and analytical dashboards using modern tools and technologies.
-    </p>
-
-    <p>
-      Experienced in Python, SQL, Power BI, and machine learning
-      with practical exposure to NLP, data visualization,
-      and business analytics projects.
-    </p>
-
-    <p>
-      Passionate about building scalable and impactful technology
-      solutions while continuously strengthening technical,
-      analytical, and problem-solving capabilities.
-    </p>
-
-  </div>
-
-</section>
-
-  <!-- EXPERIENCE -->
-
-<section id="experience">
-
-  <div class="box">
-
-    <h2>Experience</h2>
-
-    <div class="experience-content">
-
-      <h3>Data Analyst Intern — Elevate Labs</h3>
-
-      <span>August 2025 – September 2025</span>
-
-      <p>
-        Contributed to analytics-driven projects involving data analysis,
-        reporting, visualization, and business insight generation.
-      </p>
-
-      <p>
-        Worked with structured datasets to identify trends,
-        support decision-making, and improve analytical reporting workflows.
-      </p>
-
-      <p>
-        Recognized as <strong>Best Performer</strong>
-        for outstanding analytical contribution, consistency,
-        and professional execution during the internship.
-      </p>
+      <div class="mini-stat">
+        <strong>Data Analytics</strong>
+        <span>Elevate Labs Internship</span>
+      </div>
 
     </div>
 
   </div>
 
-</section>
+</header>
 
-  <!-- SKILLS -->
 
-  <section id="skills">
+<main>
 
-    <div class="box">
+<!-- ABOUT -->
 
-      <h2>Skills</h2>
+<section id="about" class="section">
 
-      <div class="skills-container">
+  <div class="section-heading">
+    <p class="eyebrow">ABOUT ME</p>
+    <h2>Building with data, AI and code.</h2>
+  </div>
 
-        <div class="skill">Python</div>
+  <div class="about-grid">
 
-        <div class="skill">SQL</div>
+    <div class="glass-card">
 
-        <div class="skill">Machine Learning</div>
+      <p>
+        I am a Computer Science undergraduate at
+        Vignan Institute of Technology and Science with a
+        <strong>9.20 CGPA</strong>.
+        My interests span AI, Data Analytics,
+        Machine Learning and Software Development.
+      </p>
 
-        <div class="skill">Power BI</div>
-
-        <div class="skill">Data Analytics</div>
-
-        <div class="skill">Scikit-learn</div>
-
-        <div class="skill">Pandas</div>
-
-        <div class="skill">NumPy</div>
-
-        <div class="skill">Tableau</div>
-
-        <div class="skill">MySQL</div>
-
-        <div class="skill">Git & GitHub</div>
-
-        <div class="skill">HTML & CSS</div>
-
-      </div>
+      <p>
+        I have practical experience working with Python, SQL,
+        Power BI, Machine Learning and AI tools including
+        IBM Granite, watsonx.ai and LangFlow.
+        I enjoy solving real-world problems by combining
+        analytical thinking with technology.
+      </p>
 
     </div>
 
-  </section>
 
-  <!-- PROJECTS -->
+    <div class="highlight-list">
 
-<section id="projects">
-
-  <div class="box">
-
-    <h2>Projects</h2>
-
-    <div class="projects-grid">
-
-      <!-- PROJECT 1 -->
-
-      <div class="project-card">
-
-        <h3>E-Commerce Fraud Detection System</h3>
-
-        <p>
-          Developed a machine learning-based fraud detection system
-          using predictive analytics and imbalance handling techniques
-          to identify suspicious transactions effectively.
-        </p>
-
-        <p>
-          Achieved 92% classification accuracy and 0.96 ROC-AUC score.
-        </p>
-
-        <a
-          href="https://github.com/saibhargavi-rapolu/ecommerce-fraud-detection.git"
-          target="_blank"
-          class="project-btn"
-        >
-          <i class="fa-brands fa-github"></i>
-          View Project
-        </a>
-
+      <div>
+        <span>01</span>
+        <p>Data analysis & business insights</p>
       </div>
 
-      <!-- PROJECT 2 -->
-
-      <div class="project-card">
-
-        <h3>Employee Attrition Risk Prediction</h3>
-
-        <p>
-          Built predictive models and interactive Power BI dashboards
-          to analyze employee attrition trends and workforce insights
-          using HR analytics datasets.
-        </p>
-
-        <a
-          href="https://github.com/saibhargavi-rapolu/HR-Analytics.git"
-          target="_blank"
-          class="project-btn"
-        >
-          <i class="fa-brands fa-github"></i>
-          View Project
-        </a>
-
+      <div>
+        <span>02</span>
+        <p>Machine learning & predictive analytics</p>
       </div>
 
-      <!-- PROJECT 3 -->
 
-      <div class="project-card">
-
-        <h3>Movie Review Sentiment Classification</h3>
-
-        <p>
-          Performed sentiment analysis on IMDb movie reviews using
-          NLP techniques, TF-IDF vectorization, and supervised
-          machine learning algorithms.
-        </p>
-
-        <p>
-          Achieved 82–85% sentiment classification accuracy.
-        </p>
-
-        <a
-          href="https://github.com/saibhargavi-rapolu/Movie-Sentiment-Analysis.git"
-          target="_blank"
-          class="project-btn"
-        >
-          <i class="fa-brands fa-github"></i>
-          View Project
-        </a>
-
+      <div>
+        <span>04</span>
+        <p>Software development & problem solving</p>
       </div>
 
     </div>
@@ -277,131 +175,649 @@
   </div>
 
 </section>
-  <!-- CERTIFICATIONS -->
 
-  <section id="certifications">
 
-    <div class="box">
+<!-- EXPERIENCE -->
 
-      <h2>Certifications</h2>
+<section id="experience" class="section alt">
 
-      <ul class="list">
+  <div class="section-heading">
+    <p class="eyebrow">EXPERIENCE</p>
+    <h2>Internship experience</h2>
+  </div>
 
-        <li>Oracle Cloud Infrastructure 2025 – AI Foundations Associate</li>
 
-        <li>NPTEL Certification – Database Management System (DBMS)</li>
+  <div class="timeline">
 
-        <li>SQL (Basic) Skill Certification – HackerRank</li>
+    <article class="timeline-item">
 
-        <li>Python 101 for Data Science – IBM Cognitive Class</li>
+      <div class="timeline-dot"></div>
 
+      <div class="timeline-content">
+
+        <div class="role-row">
+
+          <div>
+            <h3>AI & Cloud Intern</h3>
+            <p class="company">
+              Edunet Foundation × IBM SkillsBuild
+            </p>
+          </div>
+
+          <span class="date">
+            May 2026 – Jun 2026
+          </span>
+
+        </div>
+
+        <ul>
+
+          <li>
+            Completed a 4-week AI & Cloud internship focused on
+            cloud computing, exploratory analytics and applied
+            AI/ML concepts through mentor-led sessions on IBM Cloud.
+          </li>
+
+          <li>
+            Deployed the Interview Trainer Agent using IBM Granite,
+            watsonx.ai, LangFlow and Streamlit, delivering the
+            capstone solution during final evaluation.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </article>
+
+
+    <article class="timeline-item">
+
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+
+        <div class="role-row">
+
+          <div>
+            <h3>Data Analyst Intern</h3>
+            <p class="company">Elevate Labs</p>
+          </div>
+
+          <span class="date">
+            Aug 2025 – Sep 2025
+          </span>
+
+        </div>
+
+        <ul>
+
+          <li>
+            Processed, cleaned and analyzed multiple datasets
+            during a 45-day internship, transforming raw data
+            into actionable business insights through exploratory
+            data analysis.
+          </li>
+
+          <li>
+            Prepared stakeholder-ready reports and visualizations
+            using Python, SQL, Excel and Power BI to support
+            data-driven decision-making.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+  <div class="section-heading">
+    <p class="eyebrow">SELECTED WORK</p>
+    <h2>Projects that show what I can build.</h2>
+  </div>
+
+
+  <div class="projects-grid">
+
+
+    <article class="project-card featured">
+
+      <div class="project-top">
+        <span class="project-tag">GENAI / AGENTIC AI</span>
+        <span class="project-date">May 2026</span>
+      </div>
+
+      <h3>Interview Trainer Agent</h3>
+
+      <p class="stack">
+        IBM Granite · watsonx.ai · LangFlow · Streamlit
+      </p>
+
+      <p>
+        AI-powered interview assistant that generates
+        role-specific questions, model answers and personalized
+        feedback from candidate resumes or target roles.
+      </p>
+
+      <ul>
+        <li>Designed a 4-stage reasoning pipeline in LangFlow.</li>
+        <li>Built and deployed an interactive Streamlit interface.</li>
       </ul>
 
+      <span class="project-note">
+        Built as the AI & Cloud internship capstone.
+      </span>
+      <a class="project-link"
+         href="https://github.com/saibhargavi-rapolu/Interview-Trainer-Agent.git"
+         target="_blank">
+        View Repository ↗
+      </a>
+
+    </article>
+
+
+    <article class="project-card">
+
+      <div class="project-top">
+        <span class="project-tag">AGENTIC AI</span>
+        <span class="project-date">May 2026</span>
+      </div>
+
+      <h3>Repository Persona Agent</h3>
+
+      <p class="stack">
+        Python · LLM · Agentic AI
+      </p>
+
+      <p>
+        AI-powered repository analysis agent that generates
+        contextual project summaries from GitHub repositories
+        using LLM-based reasoning.
+      </p>
+
+      <ul>
+        <li>
+          Automated repository understanding through
+          prompt engineering.
+        </li>
+
+        <li>
+          Used source-code analysis to reduce manual
+          project exploration.
+        </li>
+      </ul>
+
+      <a class="project-link"
+         href="https://github.com/saibhargavi-rapolu/repo-persona-agent.git"
+         target="_blank">
+        View Repository ↗
+      </a>
+
+    </article>
+
+
+    <article class="project-card">
+
+      <div class="project-top">
+        <span class="project-tag">MACHINE LEARNING</span>
+        <span class="project-date">Sep 2025</span>
+      </div>
+
+      <h3>E-Commerce Fraud Detection System</h3>
+
+      <p class="stack">
+        Python · Scikit-learn · SMOTE · Flask
+      </p>
+
+      <p>
+        Fraud-scoring pipeline across 50,000+ transaction
+        records, extracting behavioral indicators to flag
+        anomalies in a highly imbalanced dataset.
+      </p>
+
+      <ul>
+        <li>Used SMOTE for class balancing.</li>
+        <li>Benchmarked Logistic Regression and Random Forest.</li>
+        <li>Achieved 92% accuracy and 0.96 ROC-AUC.</li>
+      </ul>
+
+      <a class="project-link"
+         href="https://github.com/saibhargavi-rapolu/ecommerce-fraud-detection"
+         target="_blank">
+        View Repository ↗
+      </a>
+
+    </article>
+
+
+    <article class="project-card">
+
+      <div class="project-top">
+        <span class="project-tag">NLP / DATA SCIENCE</span>
+        <span class="project-date">Mar 2026</span>
+      </div>
+
+      <h3>Movie Review Sentiment Classification</h3>
+
+      <p class="stack">
+        Python · TF-IDF · Machine Learning
+      </p>
+
+      <p>
+        NLP project for sentiment analysis on IMDb movie
+        reviews using TF-IDF vectorization and supervised
+        machine learning algorithms.
+      </p>
+
+      <p class="metric">
+        82–85% classification accuracy
+      </p>
+      <a class="project-link"
+         href="https://github.com/saibhargavi-rapolu/Movie-Sentiment-Analysis.git"
+         target="_blank">
+        View Repository ↗
+      </a>
+
+    </article>
+
+
+    <article class="project-card">
+
+      <div class="project-top">
+        <span class="project-tag">DATA ANALYSIS</span>
+        <span class="project-date">Sep 2025</span>
+      </div>
+
+      <h3>Employee Attrition Risk Prediction</h3>
+
+      <p class="stack">
+        Python · Machine Learning · Power BI
+      </p>
+
+      <p>
+        Predictive analytics project using HR data to identify
+        employee attrition patterns, generate workforce insights
+        and support decision-making with interactive dashboards.
+      </p>
+      <a class="project-link"
+         href="https://github.com/saibhargavi-rapolu/HR-Analytics.git"
+         target="_blank">
+        View Repository ↗
+      </a>
+
+    </article>
+
+
+  </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="section alt">
+
+  <div class="section-heading">
+    <p class="eyebrow">TECHNICAL SKILLS</p>
+    <h2>Tools I work with</h2>
+  </div>
+
+
+  <div class="skill-groups">
+
+    <div class="skill-group">
+      <h3>Languages</h3>
+
+      <div class="chips">
+        <span>Python</span>
+        <span>C</span>
+        <span>SQL</span>
+      </div>
     </div>
 
-  </section>
 
-  <!-- CONTACT -->
+    <div class="skill-group">
 
-  <section id="contact">
+      <h3>ML & Data Science</h3>
 
-    <div class="box">
-
-      <h2>Contact</h2>
-
-      <div class="social-links">
-
-        <!-- EMAIL -->
-
-        <a href="mailto:saibhargavi.rapolu05@gmail.com" target="_blank">
-
-          <i class="fa-solid fa-envelope"></i>
-
-          Email
-
-        </a>
-
-        <!-- GITHUB -->
-
-        <a
-          href="https://github.com/saibhargavi-rapolu"
-          target="_blank"
-        >
-
-          <i class="fa-brands fa-github"></i>
-
-          GitHub
-
-        </a>
-
-        <!-- LINKEDIN -->
-
-        <a
-          href="https://www.linkedin.com/in/sai-bhargavi-rapolu-40aa9832a/"
-          target="_blank"
-        >
-
-          <i class="fa-brands fa-linkedin"></i>
-
-          LinkedIn
-
-        </a>
-
-        <!-- HACKERRANK -->
-
-        <a
-          href="https://www.hackerrank.com/profile/saibhargavi_rap1"
-          target="_blank"
-        >
-
-          <i class="fa-brands fa-hackerrank"></i>
-
-          HackerRank
-
-        </a>
-
-        <!-- RESUME -->
-
-        <a
-          href="RapoluSaiBhargavi_Resume.pdf"
-          target="_blank"
-          class="resume-btn"
-        >
-
-          <i class="fa-solid fa-file"></i>
-
-          Resume
-
-        </a>
-
+      <div class="chips">
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>Matplotlib</span>
+        <span>Data Preprocessing</span>
+        <span>Machine Learning</span>
       </div>
 
     </div>
 
-  </section>
 
-  <!-- FOOTER -->
+    <div class="skill-group">
 
-  <footer>
+      <h3>AI & Automation</h3>
+
+      <div class="chips">
+        <span>IBM Granite</span>
+        <span>watsonx.ai</span>
+        <span>LangFlow</span>
+        <span>Prompt Engineering</span>
+        <span>LLM Integration</span>
+      </div>
+
+    </div>
+
+
+    <div class="skill-group">
+
+      <h3>Databases & Tools</h3>
+
+      <div class="chips">
+        <span>MongoDB</span>
+        <span>MySQL</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>VS Code</span>
+        <span>Power BI</span>
+        <span>Tableau</span>
+        <span>MS Excel</span>
+      </div>
+
+    </div>
+
+
+    <div class="skill-group">
+
+      <h3>Core Concepts</h3>
+
+      <div class="chips">
+        <span>OOP</span>
+        <span>Data Structures & Algorithms</span>
+        <span>DBMS</span>
+        <span>Operating Systems</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EDUCATION -->
+
+<section id="education" class="section">
+
+  <div class="section-heading">
+    <p class="eyebrow">EDUCATION</p>
+    <h2>Academic background</h2>
+  </div>
+
+
+  <div class="education-card">
+
+    <div>
+
+      <span class="date">2023 – 2027</span>
+
+      <h3>
+        Vignan Institute of Technology and Science
+      </h3>
+
+      <p>
+        B.Tech in Computer Science & Engineering · Hyderabad
+      </p>
+
+    </div>
+
+    <strong>9.20 CGPA</strong>
+
+  </div>
+
+
+  <div class="education-small">
+
+    <div>
+      <strong>2021 – 2023</strong>
+      <span>
+        Kendriya Vidyalaya Sangathan, Nalgonda ·
+        XII CBSE · 77.00%
+      </span>
+    </div>
+
+    <div>
+      <strong>2021</strong>
+      <span>
+        Kendriya Vidyalaya Sangathan, Nalgonda ·
+        X CBSE · 87.20%
+      </span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+
+<section id="achievements" class="section alt">
+
+  <div class="section-heading">
+    <p class="eyebrow">ACHIEVEMENTS & CREDENTIALS</p>
+    <h2>Highlights</h2>
+  </div>
+
+
+  <div class="achievement-grid">
+
+    <div class="achievement-card">
+
+      <span class="achievement-number">94.74</span>
+
+      <h3>Percentile</h3>
+
+      <p>
+        Naukri Campus Young Turks 2025 —
+        Top 6% nationally and Certificate of Merit.
+      </p>
+
+    </div>
+
+
+    <div class="achievement-card">
+
+      <span class="achievement-number">29</span>
+
+      <h3>Rank</h3>
+
+      <p>
+        Vibe Coding Challenge – Inter-College Edition,
+        Online Build stage.
+      </p>
+
+    </div>
+
+
+    <div class="achievement-card">
+
+      <span class="achievement-number">AI</span>
+
+      <h3>Cloud & GenAI</h3>
+
+      <p>
+        Infosys Springboard Pragati Cohort 7,
+        IBM AI & Cloud internship and Oracle AI Foundations certification.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="credentials">
+
+    <h3>Certifications</h3>
+
+    <div class="credential-list">
+
+      <span>
+        Infosys Springboard Pragati Cohort 7 –
+        AI, Cloud Computing & Professional Skills
+      </span>
+
+      <span>
+        Oracle Cloud Infrastructure 2025 –
+        AI Foundations Associate
+      </span>
+
+      <span>
+        ServiceNow Virtual Internship –
+        Flows, ATF Essentials & Agentic AI
+      </span>
+
+      <span>
+        Database Management System –
+        NPTEL, IIT Kharagpur
+      </span>
+
+      <span>
+        Python 101 for Data Science –
+        IBM Cognitive Class
+      </span>
+
+      <span>
+        SQL (Basic) – HackerRank
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <div class="leadership">
+
+    <h3>Leadership & Activities</h3>
 
     <p>
-      © 2026 Rapolu Sai Bhargavi. All Rights Reserved.
+      <strong>NCC 'A' Certificate</strong> —
+      completed Annual Training Camp under the
+      31(T) Telangana Battalion.
     </p>
 
-  </footer>
+    <p>
+      <strong>NSS Volunteer</strong> —
+      contributor to community initiatives and
+      social-responsibility programs.
+    </p>
 
-  <!-- DARK MODE SCRIPT -->
+  </div>
 
-  <script>
+</section>
 
-    function toggleDarkMode() {
 
-      document.body.classList.toggle("dark");
+<!-- CONTACT -->
 
+<section id="contact" class="section contact-section">
+
+  <div class="contact-card">
+
+    <p class="eyebrow">LET'S CONNECT</p>
+
+    <h2>
+      Open to opportunities in AI, Data & Software.
+    </h2>
+
+    <p>
+      I'm interested in opportunities where I can apply
+      analytical thinking, machine learning and software
+      development to real-world problems.
+    </p>
+
+    <div class="contact-actions">
+
+      <a class="btn primary"
+         href="mailto:saibhargavi.rapolu05@gmail.com">
+        Email Me
+      </a>
+
+      <a class="btn secondary"
+         href="https://www.linkedin.com/in/sai-bhargavi-rapolu-40aa9832a/"
+         target="_blank">
+        LinkedIn
+      </a>
+
+      <a class="btn secondary"
+         href="https://github.com/saibhargavi-rapolu"
+         target="_blank">
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  
+
+  <a href="#home">
+    Back to top ↑
+  </a>
+
+</footer>
+
+
+<script>
+const themeBtn = document.getElementById("themeBtn");
+
+const savedTheme = localStorage.getItem("portfolio-theme");
+
+if (savedTheme === "light") {
+    document.body.classList.remove("dark");
+    document.body.classList.add("light");
+    themeBtn.textContent = "☾";
+} else {
+    document.body.classList.remove("light");
+    document.body.classList.add("dark");
+    themeBtn.textContent = "☀";
+}
+
+themeBtn.addEventListener("click", () => {
+
+    if (document.body.classList.contains("dark")) {
+
+        document.body.classList.remove("dark");
+        document.body.classList.add("light");
+
+        themeBtn.textContent = "☾";
+
+        localStorage.setItem("portfolio-theme", "light");
+
+    } else {
+
+        document.body.classList.remove("light");
+        document.body.classList.add("dark");
+
+        themeBtn.textContent = "☀";
+
+        localStorage.setItem("portfolio-theme", "dark");
     }
 
-  </script>
+});
+</script>
 
 </body>
-
 </html>
